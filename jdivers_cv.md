@@ -19,7 +19,7 @@ I am interested in investigating the relationship between tumor progression, met
 </br>
 
 #### EDUCATION  
-**2021-Present &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Docotoral Student in Biomedical Engineering**  
+**2021-Present &nbsp;&nbsp;&nbsp;&nbsp; Docotoral Student in Biomedical Engineering**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Arkansas, Fayetteville
 
 **2016 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BS in Biomedical Engineering, _magna cum laude_**  
@@ -28,7 +28,7 @@ I am interested in investigating the relationship between tumor progression, met
 </br>
 
 #### RESEARCH EXPERIENCE
-**2021-Present &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Graduate Research Assistant**  
+**2021-Present &nbsp;&nbsp;&nbsp;&nbsp; Graduate Research Assistant**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Laboratory for Functional Optical Imaging and Spectroscopy  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 **PI**: Narasimhan Rajaram, PhD, Biomedical Engineering
