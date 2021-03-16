@@ -6,3 +6,7 @@ assn03 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 write_razor_pbs.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -- python script to automate pbs job scripts for AHPCC Razor cluster
 
 write_pinnacle_slurm.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -- python script to automate slurm job scripts for AHPCC Pinnacle cluster
+
+![Screenshot of write_razor_pbs.py run on cluster](images/pbs.screenshot.png)
+
+Screenshot of write_razor_pbs.py run on Razor AHPCCluster
