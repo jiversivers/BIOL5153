@@ -11,32 +11,23 @@ parser = argparse.ArgumentParser(description='This script will parse a GFF file 
 
 # Add postional arguments
 parser.add_argument('gff', help='name of the GFF file')
-parser.add_argument('fasta', help='namne of the FASTA file')
+parser.add_argument('fasta', help='name of the FASTA file')
 
 # Parse the arguments
 args = parser.parse_args()
 
-# GFF filename
-gff_input = 'watermelon.gff'
-
-# FASTA filename
-fasta_input = 'watermelon.fsa'
+# Read in FASTA file
+genome = SeqIO.read(args.fasta, 'fasta')
 
 # Open and read in GFF file
 with open(args.gff, 'r') as gff_in:
     # Create a csv reader object
     reader = csv.reader(gff_in, delimiter='\t')
 
-    # Loop over all the lines in our reader object (i.e., parsed file)
+# Loop over all the lines in our reader object (i.e., parsed file)
     for line in reader:
-        start  = line[3]
-        end    = line[4]
-        strand = line[6]
-
-
-# Read in FASTA file
-genome = SeqIO.read(args.fasta, 'fasta')
-print(genome.id)
-print(len(genome.seq))
-
-# Parse the GFF file
+        start  = int(line[3]) # Start location of sequence
+        end    = int(line[4]) # End location of sequence
+        header = line[8] # GFF info of sequence
+        print('>'+header)
+        print(genome.seq[start-1:end],'\n') # Minus 1 to account for zero-indexing and will be inclusive of final nucleotide
