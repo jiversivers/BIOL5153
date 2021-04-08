@@ -19,6 +19,8 @@ args = parser.parse_args()
 # Read in FASTA file
 genome = SeqIO.read(args.fasta, 'fasta')
 
+# Extract genome name from file name
+name   = args.gff.split('.')[0]
 # Open and read in GFF file
 with open(args.gff, 'r') as gff_in:
     # Create a csv reader object
@@ -29,5 +31,5 @@ with open(args.gff, 'r') as gff_in:
         start  = int(line[3]) # Start location of sequence
         end    = int(line[4]) # End location of sequence
         header = line[8] # GFF info of sequence
-        print('>'+header)
+        print('>'+name, header)
         print(genome.seq[start-1:end],'\n') # Minus 1 to account for zero-indexing and will be inclusive of final nucleotide
