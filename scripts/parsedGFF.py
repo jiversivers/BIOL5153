@@ -30,6 +30,11 @@ with open(args.gff, 'r') as gff_in:
     for line in reader:
         start  = int(line[3]) # Start location of sequence
         end    = int(line[4]) # End location of sequence
+        strand = line[6]
         header = line[8] # GFF info of sequence
         print('>'+name, header)
-        print(genome.seq[start-1:end],'\n') # Minus 1 to account for zero-indexing and will be inclusive of final nucleotide
+        if strand == '+':
+            print(genome.seq[start-1:end],'\n') # Minus 1 to account for zero-indexing and will be inclusive of final nucleotide
+        else:
+            sequence = genome.seq[start-1:end]
+            print(sequence.reverse_complement(), '\n') # Print reverse complement for - strand sequences
