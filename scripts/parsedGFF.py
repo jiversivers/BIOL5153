@@ -37,4 +37,5 @@ with open(args.gff, 'r') as gff_in:
             print(genome.seq[start-1:end],'\n') # Minus 1 to account for zero-indexing and will be inclusive of final nucleotide
         else:
             sequence = genome.seq[start-1:end]
-            print(sequence.reverse_complement(), '\n') # Print reverse complement for - strand sequences
+            rev_comp=sequence.reverse_complement() # Find reverse complement for - strand sequences
+            print(rev_comp, '\n')
